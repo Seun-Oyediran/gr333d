@@ -1,0 +1,192 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-bg: #05050a;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: "SFProDisplay", sans-serif;
+  /* background-color: var(--primary-bg); */
+}
+
+a {
+  text-decoration: none;
+}
+
+.app_grid_canvas {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  touch-action: none;
+}
+
+.app_ui_content {
+  background-color: black;
+}
+
+.app_ui_content__header {
+  position: fixed;
+  padding: 0 32px;
+  top: 32px;
+  left: 0px;
+  right: 0px;
+  z-index: 9;
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  pointer-events: none;
+}
+
+.app_ui_content__footer {
+  position: fixed;
+  padding: 0 32px;
+  bottom: 32px;
+  left: 0px;
+  right: 0px;
+  z-index: 9;
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  pointer-events: none;
+}
+
+.app_ui_content__footer__authors {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.app_ui_content__footer__authors__text {
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: -0.02em;
+  color: #fce0ca;
+}
+
+.app_ui_content__footer__authors__links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  pointer-events: all;
+}
+
+.app_ui_content__footer__authors__links__text {
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: -0.02em;
+  color: #fce0ca;
+}
+
+.app_top_ctt {
+  transform: translate(-50%, -100%);
+  text-wrap: nowrap;
+  text-align: center;
+}
+
+.app_bottom_ctt {
+  transform: translateX(-50%);
+  text-wrap: nowrap;
+  text-align: center;
+}
+
+.app_bottom_ctt__flex {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.app_back_btn {
+  all: unset;
+  border: 1px solid #bebebe;
+  border-radius: 40px;
+  padding: 7px 14px;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: -0.02em;
+  color: #bebebe;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.app_back_btn:hover {
+  opacity: 0.8;
+}
+
+.app_album_details {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.app_album_details__artist {
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: -0.02em;
+  color: #fce0ca;
+  text-transform: uppercase;
+}
+
+.app_album_details__album {
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: -0.02em;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.app_album_link {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  justify-content: center;
+}
+
+.app_album_link__text {
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: -0.02em;
+  color: #fce0ca;
+}
+
+@media (max-width: 767px) {
+  .app_ui_content__header {
+    padding: 0 16px;
+    top: 16px;
+  }
+
+  .app_ui_content__footer {
+    padding: 0 16px;
+    bottom: 16px;
+  }
+
+  .app_back_btn,
+  .app_album_details__artist,
+  .app_album_link__text,
+  .app_ui_content__footer__authors__links__text,
+  .app_ui_content__footer__authors__text {
+    font-size: 13px;
+  }
+
+  .app_album_details__album {
+    font-size: 20px;
+  }
+
+  .app_bottom_ctt__flex {
+    gap: 1.5rem;
+  }
+}
