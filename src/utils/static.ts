@@ -295,6 +295,33 @@ export const albumsData = [
     artist: "Bas",
     link: "https://open.spotify.com/album/0djZBLLoZgWveXvSGQ6AHI?si=nMv6BANsSW6ipM-41H607Q",
   },
+
+  {
+    id: 35,
+    cover: "https://i.scdn.co/image/ab67616d0000b2732129eda0ae3c8426c3d4dc7d",
+    album: "Dark Times",
+    year: "2024",
+    artist: "Vince Staples",
+    link: "https://open.spotify.com/album/30BFY5VHii4PyWqkTubUWX?si=tXOPa68nT4yTqBAeWIkaUQ",
+  },
+
+  {
+    id: 36,
+    cover: "https://i.scdn.co/image/ab67616d0000b27364554505c928408d027c9cd0",
+    album: "Stubborn",
+    year: "2024",
+    artist: "Victony",
+    link: "https://open.spotify.com/album/1dfsKiTgOKzA8sLHCNMuKc?si=sCrz4n4jT6O2LUI0cz_zCg",
+  },
+
+  {
+    id: 37,
+    cover: "https://i.scdn.co/image/ab67616d0000b273602ca5b83fe44b68074a74b2",
+    album: "Summer Pack",
+    year: "2018",
+    artist: "Childish Gambino",
+    link: "https://open.spotify.com/album/15k99o4mZJ9mfpQGIOrZ45?si=AWMDcmnoTQectB8I5gRYAg",
+  },
 ];
 
 export const TILE_GROUPS = (gridSize: number) => [
