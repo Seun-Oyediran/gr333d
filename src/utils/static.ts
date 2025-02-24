@@ -26,11 +26,11 @@ export const albumsData = [
   },
   {
     id: 4,
-    cover: "https://i.scdn.co/image/ab67616d0000b273680f7aff18376de523d7dea5",
-    album: "Introspection",
-    year: "2020",
-    artist: "UMI",
-    link: "https://open.spotify.com/album/6jI8YPlDzzuckCKU2DKPyy?si=0TZQ_vMKRU2MHAi0Rc0yFg",
+    cover: "https://i.scdn.co/image/ab67616d0000b27312b3f64407f94147473b7a5f",
+    album: "African Giant",
+    year: "2019",
+    artist: "Burna Boy",
+    link: "https://open.spotify.com/album/277z75G1Gdz0SWN9pegrrs?si=unzu7g50QlWTwPZKh7gqxw",
   },
 
   {
@@ -321,6 +321,60 @@ export const albumsData = [
     year: "2018",
     artist: "Childish Gambino",
     link: "https://open.spotify.com/album/15k99o4mZJ9mfpQGIOrZ45?si=AWMDcmnoTQectB8I5gRYAg",
+  },
+
+  {
+    id: 38,
+    cover: "https://i.scdn.co/image/ab67616d0000b27390e89e3afc4441bf36720a73",
+    album: "Made In Lagos",
+    year: "2020",
+    artist: "Wizkid",
+    link: "https://open.spotify.com/album/6HpMdN52TfJAwVbmkrFeBN?si=YavZfA2OQ0Gs0o7sAxUtxA",
+  },
+
+  {
+    id: 39,
+    cover: "https://i.scdn.co/image/ab67616d0000b273c1c8d2889455db6d03d309ed",
+    album: "PSYCHODRAMA",
+    year: "2019",
+    artist: "Dave",
+    link: "https://open.spotify.com/album/4GrFuXwRmEBJec22p58fsD?si=3ciNdRfwTIa0TibEF8D98g",
+  },
+
+  {
+    id: 40,
+    cover: "https://i.scdn.co/image/ab67616d0000b273f90d6682e83a5e4c3c57399a",
+    album: "Common Sense",
+    year: "2017",
+    artist: "J Hus",
+    link: "https://open.spotify.com/album/6fUnZqjU3bwBOZIsQ4kN1Q?si=bnjPo9yaQOCStF11sBu5SA",
+  },
+
+  {
+    id: 41,
+    cover: "https://i.scdn.co/image/ab67616d0000b273680f7aff18376de523d7dea5",
+    album: "Introspection",
+    year: "2020",
+    artist: "UMI",
+    link: "https://open.spotify.com/album/6jI8YPlDzzuckCKU2DKPyy?si=0TZQ_vMKRU2MHAi0Rc0yFg",
+  },
+
+  {
+    id: 42,
+    cover: "https://i.scdn.co/image/ab67616d0000b2739b19c107109de740bad72df5",
+    album: "2001",
+    year: "1999",
+    artist: "Dr. Dre",
+    link: "https://open.spotify.com/album/7q2B4M5EiBkqrlsNW8lB7N?si=eEaxkWDcQXuM0uSBp1vAOQ",
+  },
+
+  {
+    id: 43,
+    cover: "https://i.scdn.co/image/ab67616d0000b27381a6a2cafab2e7a4066b5eec",
+    album: "AT.LONG.LAST.A$AP",
+    year: "2015",
+    artist: "A$AP Rocky",
+    link: "https://open.spotify.com/album/3arNdjotCvtiiLFfjKngMc?si=C-02U9IrR4STlGOs39MUxA",
   },
 ];
 
