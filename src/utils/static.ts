@@ -376,6 +376,141 @@ export const albumsData = [
     artist: "A$AP Rocky",
     link: "https://open.spotify.com/album/3arNdjotCvtiiLFfjKngMc?si=C-02U9IrR4STlGOs39MUxA",
   },
+
+  {
+    id: 44,
+    cover: "https://i.scdn.co/image/ab67616d0000b273c0c05243a846dda6c84607f9",
+    album: "Pretty Girls Like Trap Music",
+    year: "2017",
+    artist: "2 Chainz",
+    link: "https://open.spotify.com/album/5vvvo79z68vWj9yimoygfS?si=YrBjLwpWTm-v3Jjd6W9t6g",
+  },
+
+  {
+    id: 45,
+    cover: "https://i.scdn.co/image/ab67616d0000b273c6b31d9de8df430efab41836",
+    album: "The Melodic Blue",
+    year: "2022",
+    artist: "Baby Keem",
+    link: "https://open.spotify.com/album/5Co3CGD9lBQVNnn7q0px1g?si=MKPAHifCR3aqq-p7r0OZJw",
+  },
+
+  {
+    id: 46,
+    cover: "https://i.scdn.co/image/ab67616d0000b27384f49cbc39ac1f18422a4d42",
+    album: "Rap Or Go To The League",
+    year: "2019",
+    artist: "2 Chainz",
+    link: "https://open.spotify.com/album/1BR69wIifGZUSimcuTjWVg?si=I0hB7EtZTxWGWJ_iDnpZuw",
+  },
+
+  {
+    id: 47,
+    cover: "https://i.scdn.co/image/ab67616d0000b27371cae34ad5a39bdab78af13e",
+    album: "AUSTIN",
+    year: "2023",
+    artist: "Post Malone",
+    link: "https://open.spotify.com/album/6r1lh7fHMB499vGKtIyJLy?si=Hmthmf4VRn-VBXRHrFJlUg",
+  },
+
+  {
+    id: 48,
+    cover: "https://i.scdn.co/image/ab67616d0000b273f9f2d43ff44bdfbe8c556f8d",
+    album: "COSMIC",
+    year: "2023",
+    artist: "Bazzi",
+    link: "https://open.spotify.com/album/5EEkfRgfYHiFu0lGur6Z6M?si=EIoHW29sR4aYreixkb_SHw",
+  },
+
+  {
+    id: 49,
+    cover: "https://i.scdn.co/image/ab67616d0000b2733e94984ffd2929be2df61582",
+    album: "All the Little Lights",
+    year: "2013",
+    artist: "Passenger",
+    link: "https://open.spotify.com/album/6WBDLlICqs6YmZPBQJKsKM?si=uuMcwwVJTuSuZWaPfGac3w",
+  },
+
+  {
+    id: 50,
+    cover: "https://i.scdn.co/image/ab67616d0000b2738ff7c3580d429c8212b9a3b6",
+    album: "A Head Full of Dreams",
+    year: "2015",
+    artist: "Coldplay",
+    link: "https://open.spotify.com/album/3cfAM8b8KqJRoIzt3zLKqw?si=cKabIdu8SGS3c9GoNz9sVA",
+  },
+
+  {
+    id: 51,
+    cover: "https://i.scdn.co/image/ab67616d0000b273407bd04707c463bbb3410737",
+    album: "Night Visions",
+    year: "2012",
+    artist: "Imagine Dragons",
+    link: "https://open.spotify.com/album/6nxDQi0FeEwccEPJeNySoS?si=E7zXny8_TlSwLXxVupTbpg",
+  },
+
+  {
+    id: 52,
+    cover: "https://i.scdn.co/image/ab67616d0000b273072e9faef2ef7b6db63834a3",
+    album: "ASTROWORLD",
+    year: "2018",
+    artist: "Travis Scott",
+    link: "https://open.spotify.com/album/41GuZcammIkupMPKH2OJ6I?si=neoMJrUnT2qlS1IVtvFQ8w",
+  },
+
+  {
+    id: 53,
+    cover: "https://i.scdn.co/image/ab67616d0000b2730c5f23cbf0b1ab7e37d0dc67",
+    album: "Alone At Prom",
+    year: "2021",
+    artist: "Tory Lanez",
+    link: "https://open.spotify.com/album/5Gm2XKBgnlzd6qTi7LE1z2?si=hpiDf4KgS-OTEmowVhoy_w",
+  },
+
+  {
+    id: 54,
+    cover: "https://i.scdn.co/image/ab67616d0000b273c4fee55d7b51479627c31f89",
+    album: "HEROES & VILLAINS",
+    year: "2022",
+    artist: "Metro Boomin",
+    link: "https://open.spotify.com/album/7txGsnDSqVMoRl6RQ9XyZP?si=h5ScPSK2T4WYuBeTTjn_1Q",
+  },
+
+  {
+    id: 55,
+    cover: "https://i.scdn.co/image/ab67616d0000b2736abcbbeeb62d22d815822b3c",
+    album: "Whispers",
+    year: "2014",
+    artist: "Passenger",
+    link: "https://open.spotify.com/album/2lUbDbD63lSMGJYyh4tzbg?si=6Zjf4TEwS9mC0koQst6X6A",
+  },
+
+  {
+    id: 56,
+    cover: "https://i.scdn.co/image/ab67616d0000b2730c13d3d5a503c84fcc60ae94",
+    album: "Memories...Do Not Open",
+    year: "2017",
+    artist: "The Chainsmokers",
+    link: "https://open.spotify.com/album/4JPguzRps3kuWDD5GS6oXr?si=Np1jx_LFROuTwR9gnm86Vw",
+  },
+
+  {
+    id: 57,
+    cover: "https://i.scdn.co/image/ab67616d0000b273b1c4b76e23414c9f20242268",
+    album: "beerbongs & bentleys",
+    year: "2018",
+    artist: "Post Malone",
+    link: "https://open.spotify.com/album/6trNtQUgC8cgbWcqoMYkOR?si=O1-HDXj9TkeYKZz6PRUAag",
+  },
+
+  {
+    id: 58,
+    cover: "https://i.scdn.co/image/ab67616d0000b27344d785d57cd40df2e877476f",
+    album: "Rave & Roses",
+    year: "2022",
+    artist: "Rema",
+    link: "https://open.spotify.com/album/71S4BwV5E6Pwwz0ASZB7th?si=nTf_c3syR4eFQszEY90ZmA",
+  },
 ];
 
 export const TILE_GROUPS = (gridSize: number) => [
