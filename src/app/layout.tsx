@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "GR333D",
   description:
-    "A boundless journey through the soundscapes of my favorite albums. Explore an infinite grid of musical masterpieces, each one a portal to memories, emotions, and timeless artistry. Dive in and let the music guide you.",
+    "Discover our team's favorite albums in an infinite grid—where music, memories, and design converge.",
 };
 
 export default function RootLayout({
