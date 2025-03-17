@@ -511,6 +511,51 @@ export const albumsData = [
     artist: "Rema",
     link: "https://open.spotify.com/album/71S4BwV5E6Pwwz0ASZB7th?si=nTf_c3syR4eFQszEY90ZmA",
   },
+
+  {
+    id: 59,
+    cover: "https://i.scdn.co/image/ab67616d0000b273442b53773d50e1b5369bb16c",
+    album: "V",
+    year: "2014",
+    artist: "Maroon 5",
+    link: "https://open.spotify.com/album/2Auw0pTT6EcQdvHNimhLQI?si=zXQgib_vR7-pUP6tvEJk4g",
+  },
+
+  {
+    id: 60,
+    cover: "https://i.scdn.co/image/ab67616d0000b2731df535f5089e544a3cc86069",
+    album: "Ends & Begins",
+    year: "2023",
+    artist: "Labrinth",
+    link: "https://open.spotify.com/album/5kGUy2eONqGocT26fvKo9v?si=Wzk9iYC9RkaxUxwPzKrJjQ",
+  },
+
+  {
+    id: 61,
+    cover: "https://i.scdn.co/image/ab67616d00001e0290988beeecde0598e8fe5092",
+    album: "Magic",
+    year: "2021",
+    artist: "Nas",
+    link: "https://open.spotify.com/album/1tiCHRx9AI11hfcLmkGEXT?si=dBfxU1mqQ028oTeqFzUMcA",
+  },
+
+  {
+    id: 62,
+    cover: "https://i.scdn.co/image/ab67616d0000b2730fb08616c78d44ceb4c8d061",
+    album: "Sunburn",
+    year: "2023",
+    artist: "Dominic Fike",
+    link: "https://open.spotify.com/album/2T7LuxZRr6SQMgABLtoYTH?si=oA9vyrVDQPGGKDk03gm0Qg",
+  },
+
+  {
+    id: 63,
+    cover: "https://i.scdn.co/image/ab67616d0000b27350afddb72e051ad630fa133d",
+    album: "Thy Nation Come",
+    year: "2013",
+    artist: "Jesse Jagz",
+    link: "https://open.spotify.com/album/3U7XByGJclEVafuL9Z5HAb?si=tcV6yIKPS_WRQQJpWkqzlA",
+  },
 ];
 
 export const TILE_GROUPS = (gridSize: number) => [
