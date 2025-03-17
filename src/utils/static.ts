@@ -556,6 +556,78 @@ export const albumsData = [
     artist: "Jesse Jagz",
     link: "https://open.spotify.com/album/3U7XByGJclEVafuL9Z5HAb?si=tcV6yIKPS_WRQQJpWkqzlA",
   },
+
+  {
+    id: 64,
+    cover: "https://i.scdn.co/image/ab67616d0000b273b4158166c72d2b6c84a37dd7",
+    album: "It'll All Make Sense In The End",
+    year: "2021",
+    artist: "James Arthur",
+    link: "https://open.spotify.com/album/0P4xzdUBgd8cMncwM7okcd?si=74187NJmTK6oUYaWtSX4_Q",
+  },
+
+  {
+    id: 65,
+    cover: "https://i.scdn.co/image/ab67616d0000b2731ee6732ccb8f07bd15b33beb",
+    album: "Mr. Money With The Vibe",
+    year: "2022",
+    artist: "Asake",
+    link: "https://open.spotify.com/album/0lzPMIAYhhUSD2BPT0VQWI?si=Fv60SYkgTzCEshRf0cWVlg",
+  },
+
+  {
+    id: 66,
+    cover: "https://i.scdn.co/image/ab67616d0000b273b747618b16bff54d5cd70325",
+    album: "Laughter, Tears & Goosebumps",
+    year: "2019",
+    artist: "Fireboy DML",
+    link: "https://open.spotify.com/album/4dZjYBEciWomanesAv3fie?si=nexG-0hjQcSdq1lKXe5Fhg",
+  },
+
+  {
+    id: 67,
+    cover: "https://i.scdn.co/image/ab67616d0000b2732e8ed79e177ff6011076f5f0",
+    album: "Harry's House",
+    year: "2022",
+    artist: "Harry Styles",
+    link: "https://open.spotify.com/album/5r36AJ6VOJtp00oxSkBZ5h?si=8lJA1SsLRzadXhJTYPBtWg",
+  },
+
+  {
+    id: 68,
+    cover: "https://i.scdn.co/image/ab67616d0000b273a74766a3fc47416df6ba4db2",
+    album: "APOLLO",
+    year: "2020",
+    artist: "Fireboy DML",
+    link: "https://open.spotify.com/album/6HdrMYu33mRMYPEDB8MbPq?si=5f2jYsz2SVO9f-ugMrkG8A",
+  },
+
+  {
+    id: 69,
+    cover: "https://i.scdn.co/image/ab67616d0000b2737e2b5827ffc185e44c3e6ef0",
+    album: "Work Of Art",
+    year: "2023",
+    artist: "Asake",
+    link: "https://open.spotify.com/album/2O9VJaLSnwjZ2HPpMaVoPU?si=kNQraq31S9uRGyhf29aSXA",
+  },
+
+  {
+    id: 70,
+    cover: "https://i.scdn.co/image/ab67616d0000b273d9d9bacd43f36f1c9eaf8cbf",
+    album: "Tradition",
+    year: "2019",
+    artist: "Runtown",
+    link: "https://open.spotify.com/album/2Vstsk3IsboCWbvZawvcH8?si=iq_vIOxnQ-e5WP0dV-MG-Q",
+  },
+
+  {
+    id: 71,
+    cover: "https://i.scdn.co/image/ab67616d0000b273988ede5e1276e758b5f9e577",
+    album: "American Teen",
+    year: "2017",
+    artist: "Khalid",
+    link: "https://open.spotify.com/album/6kf46HbnYCZzP6rjvQHYzg?si=kvlrA_6HSFGdSQxG4JnlwQ",
+  },
 ];
 
 export const TILE_GROUPS = (gridSize: number) => [
@@ -618,3 +690,16 @@ export const closeVariant = {
   opacity: 0,
   transition: { duration: 2 },
 };
+
+// let longest = 0;
+
+// function getLength() {
+//   albumsData.forEach((item) => {
+//     if (item.album.length > longest) {
+//       longest = item.album.length;
+//       console.log(item.album, longest);
+//     }
+//   });
+// }
+
+// getLength();
