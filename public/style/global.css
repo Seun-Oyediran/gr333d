@@ -139,6 +139,11 @@ a {
   letter-spacing: -0.02em;
   color: #fce0ca;
   text-transform: uppercase;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* number of lines to show */
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
 }
 
 .app_album_details__album {
@@ -147,6 +152,11 @@ a {
   letter-spacing: -0.02em;
   color: #fff;
   text-transform: uppercase;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* number of lines to show */
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
 }
 
 .app_album_link {
@@ -161,6 +171,11 @@ a {
   font-size: 15px;
   letter-spacing: -0.02em;
   color: #fce0ca;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* number of lines to show */
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
 }
 
 @media (max-width: 767px) {
@@ -179,11 +194,11 @@ a {
   .app_album_link__text,
   .app_ui_content__footer__authors__links__text,
   .app_ui_content__footer__authors__text {
-    font-size: 13px;
+    font-size: 12px;
   }
 
   .app_album_details__album {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .app_bottom_ctt__flex {
