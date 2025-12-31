@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Image } from "@react-three/drei";
 import { Group, Vector3 } from "three";
-import { albumsData } from "@/utils/static";
+import { randomAlbumData } from "@/utils/static";
 import { useAppContext } from "@/state/context";
 import { useFrame, useThree } from "@react-three/fiber";
 import { easing } from "maath";
@@ -28,6 +28,7 @@ export function Tile(props: IProps) {
   const offsetY = useRef(0);
 
   const generalIndex = groupIndex * 9 + item.id;
+  const albumsData = randomAlbumData;
   const dataIndex = generalIndex % albumsData.length;
 
   const data = albumsData[dataIndex];
