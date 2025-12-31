@@ -1336,11 +1336,11 @@ export const albumsData = [
 
   {
     id: 81,
-    cover: "https://i.scdn.co/image/ab67616d0000b27381a6a2cafab2e7a4066b5eec",
-    album: "AT.LONG.LAST.A$AP",
-    year: "2015",
-    artist: "A$AP Rocky",
-    link: "https://open.spotify.com/album/3arNdjotCvtiiLFfjKngMc?si=C-02U9IrR4STlGOs39MUxA",
+    cover: "https://i.scdn.co/image/ab67616d0000b2734cd20eb7865b6f461811d2bc",
+    album: "catharsis",
+    year: "2025",
+    artist: "FOLA",
+    link: "https://open.spotify.com/album/6gTLViwiDv6NKtTAG0nm7S?si=7ze8qiuqT52-tau-169JzA",
   },
 ];
 
